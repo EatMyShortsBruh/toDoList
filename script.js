@@ -5,7 +5,7 @@ const list = document.getElementById('todo-list');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const task=Text = input();
+    const taskText = input.value.trim();
     if (taskText === '') return;
 
     const li = document.createElement('li');
