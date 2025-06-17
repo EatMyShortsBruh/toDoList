@@ -15,3 +15,9 @@ todo-app/
 └── script.js
 
 ```
+
+## Step 2 and 3: Base index.html and CSS
+
+At this point we can open up our [index.html](index.html) and see the start of what is coming together. There will be a box that will accept the next To do input and a button to add the task.
+
+Next we will add some funnctionality.
