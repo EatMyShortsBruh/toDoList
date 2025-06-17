@@ -21,3 +21,5 @@ todo-app/
 At this point we can open up our [index.html](index.html) and see the start of what is coming together. There will be a box that will accept the next To do input and a button to add the task.
 
 Next we will add some funnctionality.
+
+## Step 4: JavaScript - Making It Work
