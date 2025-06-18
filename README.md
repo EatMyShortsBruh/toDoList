@@ -23,3 +23,5 @@ At this point we can open up our [index.html](index.html) and see the start of w
 Next we will add some funnctionality.
 
 ## Step 4: JavaScript - Making It Work
+
+Now, we can type a task, pres "Add", and store the task on the list
