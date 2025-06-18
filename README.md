@@ -25,3 +25,5 @@ Next we will add some funnctionality.
 ## Step 4: JavaScript - Making It Work
 
 Now, we can type a task, pres "Add", and store the task on the list
+
+## Step 5: More funnctionality
