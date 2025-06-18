@@ -9,9 +9,23 @@ form.addEventListener('submit', function(event) {
     if (taskText === '') return;
 
     const li = document.createElement('li');
-    li.textContent = taskText;
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
 
-    list.appendChild(li)
+    const span = document.createElement('span');
+    span.textContent = taskText;
+
+    checkbox.addEventListener('change', function () {
+        if (checkbox.checked) {
+            span.classList.add('completed');
+        } else {
+            span.classList.remove('completed');
+        }
+    });
+
+    li.appendChild(checkbox);
+    li.appendChild(span);
+    list.appendChild(li);
 
     input.value = '';
-})
+});
