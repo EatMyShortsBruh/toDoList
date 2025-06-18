@@ -25,3 +25,7 @@ Next we will add some funnctionality.
 ## Step 4: JavaScript - Making It Work
 
 Now, we can type a task, pres "Add", and store the task on the list
+
+## Next few steps will be more functionality
+
+- Remember tasks and completion status using local storage
